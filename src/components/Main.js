@@ -4,9 +4,9 @@ import Card from "./Card.js";
 
 function Main({ onEditProfile, onEditAvatar, onAddPlace, onCardClick }) {
 
-  const [userName, setUserName] = React.useState([]);
-  const [userDescription, setUserDescription] = React.useState([])
-  const [userAvatar, setUserAvatar] = React.useState([]);
+  const [userName, setUserName] = React.useState("");
+  const [userDescription, setUserDescription] = React.useState("")
+  const [userAvatar, setUserAvatar] = React.useState("");
   const [cards, setCards] = React.useState([]);
   
 
@@ -38,8 +38,7 @@ function Main({ onEditProfile, onEditAvatar, onAddPlace, onCardClick }) {
         <button className="profile__addbutton" type="button" aria-label="add button" onClick={onAddPlace} />
       </section>
       <section className="cards">
-        {cards.map((card) => {
-          return (
+        {cards.map(card => (
             <Card
               key={card._id}
               link={card.link}
@@ -48,8 +47,8 @@ function Main({ onEditProfile, onEditAvatar, onAddPlace, onCardClick }) {
               card={card}
               onCardClick={onCardClick}
             />
-          );
-        })}
+          )
+        )}
       </section>
     </main>
   );
