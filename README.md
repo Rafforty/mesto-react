@@ -2,7 +2,7 @@
 
 Рефакторинг проекта [Mesto](https://github.com/Rafforty/mesto) с использованием библиотеки React
 
-Ссылка на gh-pages: [Mesto-react](*добавить ссылку*)
+Ссылка на gh-pages: [Mesto-react](https://rafforty.github.io/mesto-react/)
 
 Планы по дальнейшему улучшению:
 
