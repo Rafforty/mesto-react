@@ -1,4 +1,8 @@
 # mesto-react
+<div align=center>
+  <img src="https://github.com/Rafforty/mesto-react/assets/96177295/9fcd8e1d-c235-4143-9c7d-34b10859d734" width=500px>
+
+</div>
 
 Рефакторинг проекта [Mesto](https://github.com/Rafforty/mesto) с использованием библиотеки React
 
